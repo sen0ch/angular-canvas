@@ -23,7 +23,8 @@ export class CanvasComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.preload(
-      this.image.src = '../../assets/images/' + this.source);
+      this.image.src = 'https://sen0ch.github.io/email-editor/src/assets/images/' + this.source);
+      // this.image.src = '../../src/assets/images/' + this.source);
     console.log(this.id, this.item, this.source, this.cta);
   }
 
@@ -50,7 +51,8 @@ ngAfterViewInit(): void {
 drawImage() {
   setTimeout(() => { this.image = new Image();
                      this.image = this.renderer.createElement('img');
-                     this.image.src = '../../assets/images/' + this.source;
+                     this.image.src = 'https://sen0ch.github.io/email-editor/src/assets/images/' + this.source;
+                     // this.image.src = '../../assets/images/' + this.source;
                      this.ctx.drawImage(this.image, -40, 0, 266, 200); } , 200);
 }
 
