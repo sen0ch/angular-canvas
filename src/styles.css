@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+.items {
+    display: inline-block;
+    padding: 25px;
+  }
+  .hide {
+  display: none;
+  }
