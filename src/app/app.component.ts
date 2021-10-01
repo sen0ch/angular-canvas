@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild, ElementRef, Renderer2} from '@angular/core';
+import { Component, OnInit, Input, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { ItemsService } from './services/items.service';
 
 @Component({
@@ -29,7 +29,7 @@ export class AppComponent implements OnInit  {
  ngOnInit() {
     this.getItems();
     this.preload(
-      '../../assets/images/' + this.source );
+      '../../assets/images/' + this.source);
   }
 
   getItems() {

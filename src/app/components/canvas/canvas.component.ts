@@ -23,9 +23,8 @@ export class CanvasComponent implements OnInit, AfterViewInit {
 
   ngOnInit() {
     this.preload(
-      this.image.src = 'https://sen0ch.github.io/angular-canvas/src/assets/images/' + this.source);
-      // this.image.src = '../../src/assets/images/' + this.source);
-    console.log(this.id, this.item, this.source, this.cta);
+      this.image.src = '../../assets/images/' + this.source);
+    // console.log(this.id, this.item, this.source, this.cta);
   }
 
    preload(...args: any[]): void {
@@ -51,8 +50,7 @@ ngAfterViewInit(): void {
 drawImage() {
   setTimeout(() => { this.image = new Image();
                      this.image = this.renderer.createElement('img');
-                     this.image.src = 'https://sen0ch.github.io/angular-canvas/src/assets/images/' + this.source;
-                     // this.image.src = '../../assets/images/' + this.source;
+                     this.image.src = '../assets/images/' + this.source;
                      this.ctx.drawImage(this.image, -40, 0, 266, 200); } , 200);
 }
 
@@ -69,7 +67,7 @@ drawBorder() {
 drawText() {
   setTimeout(() => { this.ctx.textAlign = 'center';
                      this.ctx.textBaseline = 'middle';
-                     this.ctx.font = '30px serif';
+                     this.ctx.font = '300 28px Roboto, sans-serif';
                      this.ctx.fillStyle = '#fff';
                      this.ctx.fillText(this.item, 100, 35); } , 400);
 }
@@ -82,11 +80,10 @@ drawRectangle() {
 }
 
 drawButtonText() {
-  setTimeout(() => { this.ctx.font = '14px sans-serif';
-                     this.ctx.textAlign = 'center';
+  setTimeout(() => { this.ctx.textAlign = 'center';
                      this.ctx.textBaseline = 'middle';
                      this.ctx.textBaseline = 'middle';
-                     this.ctx.font = '14px sans-serif';
+                     this.ctx.font = 'small-caps 400 16px Roboto, sans-serif';
                      this.ctx.fillStyle = '#fff';
                      this.ctx.fillText(this.cta, 100, 165); } , 600);
 }
