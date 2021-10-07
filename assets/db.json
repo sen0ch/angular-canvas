@@ -1,0 +1,88 @@
+{
+  "items": [
+  {
+    "id": "1",
+    "name": "La Jolla Cove",
+    "state": "CA",
+    "image": "wave-at-la-jolla-cove.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "2",
+    "name": "Big Rocks",
+    "state": "CA",
+    "image": "wave-breaking-on-big-rocks.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "3",
+    "name": "Wave Break",
+    "state": "CA",
+    "image": "wave-breaking-on-oceans-beach.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "4",
+    "name": "Point Loma",
+    "state": "CA",
+    "image": "wave-near-point-loma.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "5",
+    "name": "Jetty",
+    "state": "CA",
+    "image": "waves-and-surfers-near-the-jetty-in-ocean-beach.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "6",
+    "name": "Ocean Beach",
+    "state": "CA",
+    "image": "waves-at-ocean-beach.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "7",
+    "name": "Pier Beach",
+    "state": "CA",
+    "image": "waves-breaking-on-pier-on-beach.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "8",
+    "name": "Pier",
+    "state": "CA",
+    "image": "waves-breaking-on-pier.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "9",
+    "name": "Ocean Foam",
+    "state": "CA",
+    "image": "waves-ocean-foam-water.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "10",
+    "name": "Ocean",
+    "state": "CA",
+    "image": "waves-ocean.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "11",
+    "name": "Sunset Cliffs",
+    "state": "CA",
+    "image": "waves-seen-from-the-sunset-cliffs-in-san-diego.jpg",
+    "calltoaction": "call to action"
+  },
+  {
+    "id": "12",
+    "name": "Waves",
+    "state": "CA",
+    "image": "waves.jpg",
+    "calltoaction": "call to action"
+  }
+]
+}
